@@ -1,0 +1,20 @@
+body { padding: 1em 10%; font-family: "Georgia" }
+form { display: inline }
+dt, dd { margin-left: 2em; margin-bottom: 1em }
+dt { margin-bottom: 0 }
+dt em { color: #999; font-size: smaller; }
+dd strong { color: #c00; }
+a img { border: none }
+img { vertical-align: middle; }
+input, button { font-size: 20px; }
+#q { width: 40em }
+#footer { font-size: smaller; color: #666 }
+nav { background: #f0f7f9; border-top: 1px solid #6b90da; padding: .2em }
+
+@media (max-width: 480px) {
+    body { padding: .5em; }
+    dt, dd { margin-left: 0; }
+    #q { width: 60% }
+    h1 { margin: 0 0 .5em }
+    h1 img { max-height: 1.5em }
+}
